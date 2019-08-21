@@ -11,9 +11,9 @@ show tables;
 describe agenda;
 
 insert into agenda (nombre, domicilio, telefono) values 
-  ('Alberto Mores','Colon 123','4234567');
+  ('Jason Statham','Los Angeles','4234567');
 insert into agenda (nombre, domicilio, telefono) values 
-  ('Juan Torres','Avellaneda 135','4458787');
+  ( 'Keanu Reeves','Hollywood Hills	','4545454');
 
 select nombre, domicilio, telefono from agenda;
 
